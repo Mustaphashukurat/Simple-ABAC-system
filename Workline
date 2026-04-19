@@ -1,0 +1,15 @@
+# ABAC Implementation
+
+## Attributes Used
+- Department
+- Access Level
+
+## Policies
+- HR Manager can access salary records
+- IT staff can access server room
+
+## Test Results
+
+alice -> salary = Granted
+john -> salary = Denied
+john -> server = Granted
